@@ -1,6 +1,5 @@
-# Testing the functions in 
+# Testing the functions in
 import pytest
-#import pandas as pd
 from py_factor_y import my_py_sd
 
 def test_for_zeros():
@@ -18,10 +17,3 @@ def test_for_type1():
 def test_for_type2():
     with pytest.raises(TypeError):
         my_py_sd.standard_deviation(["1234", "2345"])
-
-#def test_for_df():
-#    Df = pd.DataFrame({“Testing”:[“Yes”, “No”], “Numbers”:[1, 2]})
-#    assert my_py_sd.stanard_deviation(Df.Numbers) == 0.5
-
-
-
