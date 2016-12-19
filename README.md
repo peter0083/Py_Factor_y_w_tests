@@ -2,6 +2,8 @@
 Py Factor-y
 ===========
 
+[![Build Status](https://travis-ci.org/chrismorano/Py_Factor_y_w_tests.svg?branch=master)](https://travis-ci.org/chrismorano/Py_Factor_y_w_tests)
+
 *Part of an assignment for the courses DSCI 524 - Collaborative Software Development,*
 *In the Master of Data Science program at the University of British Columbia.*
 
