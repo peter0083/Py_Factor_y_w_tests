@@ -12,6 +12,6 @@ def standard_deviation(x):
     return(stdev)
 
 def standard_error(x):
-    standard_error = lambda x: standard_deviation(x)/len(x)**0.5
-    return(standard_error)
+    s_e = standard_deviation(x)/len(x)**0.5
+    return(s_e)
 
